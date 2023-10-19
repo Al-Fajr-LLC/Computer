@@ -1,6 +1,10 @@
 [workspace]
 members = [
-    "projects/programming-language/assistance", 
-    "projects/programming-language/compiler", 
-    "projects/programming-language/parser"
+    "emulator",
+    "instruction-set",
+    "programming-language/assistance", 
+    "programming-language/compiler", 
+    "programming-language/parser",
+    "software/host",
+    "software/graphical-interface"
 ]

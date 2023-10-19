@@ -6,9 +6,9 @@ edition = "2021"
 [dependencies]
 
 [lib]
-name = "libfajr_programming_language__instruction_set"
+name = "libfajr_instruction_set"
 path = "lib/lib.rs"
 
 [[bin]]
-name = "fajr_programming_language__instruction_set"
+name = "fajr_instruction_set"
 path = "bin/bin.rs"

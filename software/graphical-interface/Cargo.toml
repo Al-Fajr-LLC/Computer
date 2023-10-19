@@ -1,0 +1,14 @@
+[package]
+name = "graphical-interface"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[lib]
+name = "libfajr_software__graphical-interface"
+path = "lib/lib.rs"
+
+[[bin]]
+name = "fajr_software__graphical-interface"
+path = "bin/bin.rs"

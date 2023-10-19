@@ -11,5 +11,21 @@ name = "compiler"
 version = "0.1.0"
 
 [[package]]
+name = "emulator"
+version = "0.1.0"
+
+[[package]]
+name = "graphical-interface"
+version = "0.1.0"
+
+[[package]]
+name = "host"
+version = "0.1.0"
+
+[[package]]
+name = "instruction-set"
+version = "0.1.0"
+
+[[package]]
 name = "parser"
 version = "0.1.0"

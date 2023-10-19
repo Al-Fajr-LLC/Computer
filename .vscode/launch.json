@@ -1,0 +1,176 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in library 'libfajr_programming_language__assistance'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--lib",
+                    "--package=assistance"
+                ],
+                "filter": {
+                    "name": "libfajr_programming_language__assistance",
+                    "kind": "lib"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'fajr_programming_language__assistance'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=fajr_programming_language__assistance",
+                    "--package=assistance"
+                ],
+                "filter": {
+                    "name": "fajr_programming_language__assistance",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'fajr_programming_language__assistance'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=fajr_programming_language__assistance",
+                    "--package=assistance"
+                ],
+                "filter": {
+                    "name": "fajr_programming_language__assistance",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in library 'libfajr_programming_language__compiler'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--lib",
+                    "--package=compiler"
+                ],
+                "filter": {
+                    "name": "libfajr_programming_language__compiler",
+                    "kind": "lib"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'emulator'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=emulator",
+                    "--package=compiler"
+                ],
+                "filter": {
+                    "name": "emulator",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'emulator'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=emulator",
+                    "--package=compiler"
+                ],
+                "filter": {
+                    "name": "emulator",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in library 'libfajr_programming_language__parser'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--lib",
+                    "--package=parser"
+                ],
+                "filter": {
+                    "name": "libfajr_programming_language__parser",
+                    "kind": "lib"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'fajr_programming_language__parser'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=fajr_programming_language__parser",
+                    "--package=parser"
+                ],
+                "filter": {
+                    "name": "fajr_programming_language__parser",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'fajr_programming_language__parser'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=fajr_programming_language__parser",
+                    "--package=parser"
+                ],
+                "filter": {
+                    "name": "fajr_programming_language__parser",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

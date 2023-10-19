@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "projects/programming-language/assistance", 
+    "projects/programming-language/compiler", 
+    "projects/programming-language/parser"
+]

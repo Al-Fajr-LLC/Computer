@@ -1,0 +1,14 @@
+[package]
+name = "assistance"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[lib]
+name = "libfajr_programming_language__assistance"
+path = "lib/lib.rs"
+
+[[bin]]
+name = "fajr_programming_language__assistance"
+path = "bin/bin.rs"

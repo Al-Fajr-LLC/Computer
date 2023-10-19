@@ -1,0 +1,14 @@
+[package]
+name = "emulator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[lib]
+name = "libfajr_programming_language__emulator"
+path = "lib/lib.rs"
+
+[[bin]]
+name = "fajr_programming_language__emulator"
+path = "bin/bin.rs"
